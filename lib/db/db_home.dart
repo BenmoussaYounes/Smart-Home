@@ -111,6 +111,7 @@ class DB_Home {
     // 'INSERT INTO Test(name, value, num) VALUES("some name", 1234, 456.789)');
   }
 
+// Test
   static Future delete_db_chambre({required int chambre_id}) async {
     print('Delete from  db');
     String sql1 = 'DELETE FROM $_module_table WHERE id_chambre = $chambre_id';
