@@ -4,7 +4,7 @@ import 'package:http/http.dart' as Http;
 import 'package:smart_home_12/services/Authentification.dart';
 
 //**AMPIO-API
-
+//prv
 class ampio_api {
   static String ip = user_info().get_user_ip();
   static Future<dynamic> getdevicesList() async {
